@@ -56,7 +56,7 @@ const Project1 = () => {
                 className="photo-1"
               />
               <img
-                src="/src/assets/project-1/guitar.jpg"
+                src="https://iili.io/H8JZ0Pe.jpg"
                 alt="Guitar player"
                 className="photo-2"
               />
@@ -190,7 +190,7 @@ const Wrapper = styled.div`
     overflow: hidden;
     --accent-color: #11a2f3;
     --accent-color-dark: #0d8fda;
-    background-image: url("/src/assets/project-1/bg.jpg");
+    background-image: url("https://iili.io/H8JZEKu.jpg");
     position: relative;
     background-size: cover;
   }
