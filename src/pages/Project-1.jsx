@@ -51,7 +51,7 @@ const Project1 = () => {
             </section>
             <section className="photos">
               <img
-                src="/src/assets/project-1/singer.jpg"
+                src="https://iili.io/H8JZlV9.jpg"
                 alt="Singer"
                 className="photo-1"
               />
