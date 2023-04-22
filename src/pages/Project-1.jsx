@@ -51,12 +51,12 @@ const Project1 = () => {
             </section>
             <section className="photos">
               <img
-                src="https://i.ibb.co/s3H6bk3/singer.png"
+                src="/src/assets/project-1/singer.jpg"
                 alt="Singer"
                 className="photo-1"
               />
               <img
-                src="https://i.ibb.co/T1KkBgR/guitar.png"
+                src="/src/assets/project-1/guitar.jpg"
                 alt="Guitar player"
                 className="photo-2"
               />
@@ -190,7 +190,7 @@ const Wrapper = styled.div`
     overflow: hidden;
     --accent-color: #11a2f3;
     --accent-color-dark: #0d8fda;
-    background-image: url("https://bytegrad.com/course-assets/youtube/bg.png");
+    background-image: url("/src/assets/project-1/bg.jpg");
     position: relative;
     background-size: cover;
   }
