@@ -8,11 +8,6 @@ const Project1 = () => {
   return (
     <Wrapper>
       <div className="container-project1">
-        {/* <img
-          src="https://bytegrad.com/course-assets/youtube/bg.png"
-          alt="Background"
-          className="bg"
-        /> */}
         <header className="header">
           <FaLayerGroup className="logo" />
           <nav className="nav">
@@ -190,9 +185,13 @@ const Wrapper = styled.div`
     overflow: hidden;
     --accent-color: #11a2f3;
     --accent-color-dark: #0d8fda;
-    background-image: url("https://iili.io/H8JZEKu.jpg");
+    /* background-image: url("https://iili.io/H8JZEKu.jpg"); */
     position: relative;
     background-size: cover;
+  }
+
+  .bg {
+    position: absolute;
   }
 
   /* header  */
@@ -207,8 +206,8 @@ const Wrapper = styled.div`
   }
 
   .logo {
-    color: rgba(255, 255, 255, 0.7);
     font-size: 30px;
+    color: var(--accent-color);
   }
 
   .links {
@@ -218,7 +217,7 @@ const Wrapper = styled.div`
 
   .link {
     font-size: 14px;
-    color: rgba(255, 255, 255, 0.7);
+    color: var(--accent-color);
     text-transform: uppercase;
     letter-spacing: 1px;
     transition: all 0, 2s;
@@ -226,6 +225,7 @@ const Wrapper = styled.div`
 
   .link:hover {
     color: rgba(255, 255, 255, 1);
+    color: #292c33;
   }
 
   .link--btn {

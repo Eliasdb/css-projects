@@ -88,10 +88,7 @@ const Wrapper = styled.div`
   .container-lp {
     font-family: "Lato", sans-serif;
     color: #fff;
-    background-image: url("https://img.freepik.com/free-vector/paper-style-white-monochrome-background_52683-66443.jpg?w=2000&t=st=1681395799~exp=1681396399~hmac=4a5974e2cc2fbdefad02862a6ca393f81fba9f3d808cbfefd143cc359003a309");
-    background-position-y: -250px;
-    background-color: rgba(0, 0, 0, 0.4);
-    background-blend-mode: darken;
+    background-color: #36454f;
     display: flex;
     flex-direction: column;
     height: 100vh;
